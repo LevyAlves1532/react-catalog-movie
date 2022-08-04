@@ -6,12 +6,12 @@ app style and the google firestore database to be the backend.</p>
 <h3>How to begin?</h3>
 
 <ol>
-  <li>first - use <code>npm i</code> or <code>yarn</code> command in your terminal</li>
+  <li>first - use <code>npm i</code> or <code>yarn</code> in your terminal</li>
   <li>second - create database in google firestore with name "movies"</li>
   <li>third - go to "config.ts" which is located in "src/utils/firebase" and fill in the following information:</li>
   <code>
     import { getFirestore } from "firebase/firestore";
-    
+
     const firebaseConfig = {
       apiKey: "",
       authDomain: "",
